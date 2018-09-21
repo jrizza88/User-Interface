@@ -64,3 +64,21 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* * {
+	margin: 0 auto;
+} */
+/* Header tags */
+header{
+	/* position: fixed; */
+	border: 20px dotted purple;
+}
+
+header:img.class{
+	display: inline-block;
+	border: 10px dotted greenyellow;
+}
+
+.container{
+	margin: 0 auto;
+}
