@@ -68,10 +68,15 @@ h1, h2, h3, h4, h5 {
  * {
 	margin: 0 auto;
 } 
+
+.container{
+	margin: 0 auto;
+	width: 875px;
+}
+
 /* Header tags */
 header{
 	/* position: fixed; */
-    border: 1px dotted purple;
     width: 875px;
     padding: 20px;
 }
@@ -91,10 +96,39 @@ color: gray;
 
 header img.logo{
 	display: inline-block;
-	position: fixed;
+	/* position: fixed; */
 }
 
-.container{
-	margin: 0 auto;
-	width: 875px;
+.firstSection{
+width: 100%;
+display: inline-block;
+margin: 25px 25px 50px 25px;
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+}
+.getStarted{
+	background-color: white;
+	height: 30px;
+	width: 150px;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 6px;
+	margin-left: 75px;
+}
+.innovation{
+	display: inline-block;
+	/* font-family: Titillium; */
+}
+
+.codeSnippet{
+	display: inline-block;
+	margin-left: 75px;
+}
+
+.codeSnippet img{
+	width: 375px;
+	height: 375px;
 }
