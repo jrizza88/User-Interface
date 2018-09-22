@@ -132,3 +132,43 @@ h1 {
 	width: 375px;
 	height: 375px;
 }
+
+
+.features {
+	display: inline-block;
+	box-sizing: border-box;
+  width: 435px;
+  height: 125px;
+}
+
+.about {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 435px;
+	height: 125px;
+}
+
+/* .middle-img {
+	margin: 25px;
+} */
+
+.services  {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 280px;
+	height: 125px;
+}
+
+.product {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 280px;
+	height: 125px;
+}
+
+.vision {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 280px;
+	height: 125px;
+}
