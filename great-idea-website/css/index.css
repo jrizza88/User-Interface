@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5 {
 
 /* Header tags */
 header{
-	/* position: fixed; */
+	position: static;
     /* width: 875px; */
 	padding: 20px;
 }
@@ -93,6 +93,8 @@ font-size: 12px;
 color: gray;
 position: relative;
 bottom: 15px;
+text-decoration: none;
+
 }
 
 header img.logo{
@@ -193,4 +195,16 @@ h1 {
 	box-sizing: border-box;
 	width: 325px;
 	height: 125px;
+}
+
+footer{
+	margin-top: 40px;
+	top: 50%;
+	float: none;
+}
+
+
+.copyright {
+	text-align: center;
+	margin: 40px 0;
 }
