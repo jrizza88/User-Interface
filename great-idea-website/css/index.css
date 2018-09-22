@@ -65,20 +65,36 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/* * {
+ * {
 	margin: 0 auto;
-} */
+} 
 /* Header tags */
 header{
 	/* position: fixed; */
-	border: 20px dotted purple;
+    border: 1px dotted purple;
+    width: 875px;
+    padding: 20px;
+}
+ nav{
+	display: inline-block;
+	width: 75%;
+	position: static;
+	padding-top: 10px;
+	padding-bottom: 50px;
 }
 
-header:img.class{
+ nav a{
+padding: 27px;
+font-size: 12px;
+color: gray;
+}
+
+header img.logo{
 	display: inline-block;
-	border: 10px dotted greenyellow;
+	position: fixed;
 }
 
 .container{
 	margin: 0 auto;
+	width: 875px;
 }
