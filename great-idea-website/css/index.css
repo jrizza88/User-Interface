@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5 {
 
 /* Header tags */
 header{
-	position: static;
+	position: fixed;
     /* width: 875px; */
 	padding: 20px;
 }
@@ -99,14 +99,15 @@ text-decoration: none;
 
 header img.logo{
 	display: inline-block;
-	/* position: fixed; */
+	position: static;
 }
 
 
 .firstSection{
 width: 100%;
 display: inline-block;
-margin: 25px 25px 50px 25px;
+margin: 75px 25px 50px 25px;
+z-index: -1;
 }
 
 h1 {
@@ -124,9 +125,9 @@ h1 {
 	margin-left: 30%;
 }
 .innovation{
+	z-index: -1;
 	display: inline-block;
 	position: relative;
-	/* line-break: unset; */
     bottom: 50px;
     margin: 50px;
     width: 400px;
@@ -148,6 +149,7 @@ h1 {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	padding: 10px 0;
+	z-index: -1;
 }
 
 .features {
